@@ -2,4 +2,6 @@
 
 ## Netlify Hosting
 
-[https://frosty-pike-a38f59.netlify.com](https://frosty-pike-a38f59.netlify.com)
+[https://kitty-catalog-dev.netlify.com/](https://kitty-catalog-dev.netlify.com/)
+
+[https://kitty-catalog-prod.netlify.com/](https://kitty-catalog-prod.netlify.com/)
