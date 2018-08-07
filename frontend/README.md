@@ -1,11 +1,17 @@
 # Frontend
 
-[http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com](http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com) or [http://d1sgage2mkpoi.cloudfront.net](http://d1sgage2mkpoi.cloudfront.net)
+## AWS S3 Hosting
+
+[http://d1sgage2mkpoi.cloudfront.net](http://d1sgage2mkpoi.cloudfront.net)
+
+## Netlify Hosting
+
+[https://frosty-pike-a38f59.netlify.com](https://frosty-pike-a38f59.netlify.com)
 
 ## Deploy
 
 ```bash
-npm run build
+REACT_APP_STAGE=prod npm run build
 
 aws s3 sync build/ s3://kitty-catalog-client
 ```
@@ -13,7 +19,7 @@ aws s3 sync build/ s3://kitty-catalog-client
 ### Redeploy Updates
 
 ```bash
-npm run build
+REACT_APP_STAGE=prod npm run build
 
 aws s3 sync build/ s3://kitty-catalog-client --delete
 ```
@@ -23,7 +29,6 @@ aws s3 sync build/ s3://kitty-catalog-client --delete
 ```bash
 aws cloudfront create-invalidation --distribution-id E1OOAV0SM61CJ8 --paths "/*"
 ```
-
 
 ## Debugging issues
 

@@ -2,7 +2,7 @@ const dev = {
     STRIPE_KEY: "pk_test_cABrU3VpdyzSjYek4aeiIZYU",
     s3: {
         REGION: "ap-southeast-2",
-        BUCKET: "kitty-catalog-serverless-serverlessdeploymentbuck-1pwd8tdn0ergb"
+        BUCKET: "kitty-catalog-serverless-api-de-attachmentsbucket-kub94atw5xz"
     },
     apiGateway: {
         REGION: "ap-southeast-2",
@@ -20,7 +20,7 @@ const prod = {
     STRIPE_KEY: "pk_test_cABrU3VpdyzSjYek4aeiIZYU",
     s3: {
         REGION: "ap-southeast-2",
-        BUCKET: "kitty-catalog-serverless-serverlessdeploymentbuck-7nyn2y7b9846"
+        BUCKET: "kitty-catalog-serverless-api-pr-attachmentsbucket-qf3owswjj5as"
     },
     apiGateway: {
         REGION: "ap-southeast-2",
