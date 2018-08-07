@@ -1,6 +1,6 @@
 # Frontend
 
-[http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com](http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com) or [d1sgage2mkpoi.cloudfront.net](d1sgage2mkpoi.cloudfront.net)
+[http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com](http://kitty-catalog-client.s3-website-ap-southeast-2.amazonaws.com) or [http://d1sgage2mkpoi.cloudfront.net](http://d1sgage2mkpoi.cloudfront.net)
 
 ## Deploy
 
