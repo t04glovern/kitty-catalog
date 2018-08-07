@@ -68,7 +68,7 @@ export default class Home extends Component {
     return (
       <div className="lander">
         <h1>Kitty Catalog</h1>
-        <p>AWESS Serverless React App for fostering kitties</p>
+        <p>AWS Serverless React App for fostering kitties</p>
         <div>
           <Link to="/login" className="btn btn-info btn-lg">
             Login
