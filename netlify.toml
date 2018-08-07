@@ -11,16 +11,19 @@
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.production]
+  base    = "frontend"
   command = "REACT_APP_STAGE=prod npm run build"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview]
+  base    = "frontend"
   command = "REACT_APP_STAGE=dev npm run build"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
 [context.branch-deploy]
+  base    = "frontend"
   command = "REACT_APP_STAGE=dev npm run build"
 
 # Always redirect any request to our index.html
