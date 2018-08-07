@@ -15,7 +15,3 @@ cd backend/
 npm install
 serverless deploy
 ```
-
-## UpTo
-
-https://serverless-stack.com/chapters/load-the-state-from-the-session.html
